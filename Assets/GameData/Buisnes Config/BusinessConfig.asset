@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33e9eb58f196d4040b8c154e6144ad15, type: 3}
+  m_Name: BusinessConfig
+  m_EditorClassIdentifier: 
+  _businessModel:
+  - _name: Bakery
+    _level: 1
+    _incomeDelay: 3
+    _price: 3
+    _income: 3
+    _typesImprovement:
+    - _isPurchased: 0
+      _name: Magic Brazier
+      _price: 150
+      _boostIncome: 50
+    - _isPurchased: 0
+      _name: Brokilon Ingredients
+      _price: 150
+      _boostIncome: 50
+  - _name: Horse Sharing
+    _level: 0
+    _incomeDelay: 6
+    _price: 40
+    _income: 40
+    _typesImprovement:
+    - _isPurchased: 0
+      _name: More Horses
+      _price: 3600
+      _boostIncome: 1200
+    - _isPurchased: 0
+      _name: Price Increase
+      _price: 3600
+      _boostIncome: 1200
+  - _name: Barbershop
+    _level: 0
+    _incomeDelay: 10
+    _price: 200
+    _income: 200
+    _typesImprovement:
+    - _isPurchased: 0
+      _name: Additional Area
+      _price: 18000
+      _boostIncome: 6000
+    - _isPurchased: 0
+      _name: Staff Development
+      _price: 18000
+      _boostIncome: 6000
+  - _name: Restaurant
+    _level: 0
+    _incomeDelay: 17
+    _price: 1000
+    _income: 1000
+    _typesImprovement:
+    - _isPurchased: 0
+      _name: Staff Motivation
+      _price: 45000
+      _boostIncome: 15000
+    - _isPurchased: 0
+      _name: Advertising
+      _price: 45000
+      _boostIncome: 15000
+  - _name: Bank
+    _level: 0
+    _incomeDelay: 30
+    _price: 5000
+    _income: 5000
+    _typesImprovement:
+    - _isPurchased: 0
+      _name: Office
+      _price: 300000
+      _boostIncome: 100000
+    - _isPurchased: 0
+      _name: Employee
+      _price: 300000
+      _boostIncome: 100000
